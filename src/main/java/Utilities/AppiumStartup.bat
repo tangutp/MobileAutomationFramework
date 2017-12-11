@@ -1,1 +1,0 @@
-"C:\Users\tangutp\nodejs\node.exe" "C:\Users\tangutp\AppData\Roaming\npm\node_modules\appium\lib\appium.js"
