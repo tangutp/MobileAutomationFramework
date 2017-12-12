@@ -4,11 +4,11 @@
     <test name="Android_EmulatorTest" preserve-order="true">
         <parameter name="deviceName" value="Pixel_XL_API_26"/>
         <parameter name="platformName" value="Android"/>
-        <parameter name="app" value="C:\\Users\\tangutp\\Documents\\Testing\\Testing\\src\\app-debug.apk"/>
-        <parameter name="URL_" value="http://127.0.0.1:4723/wd/hub"/>
+        <parameter name="app" value="C:\\Users\\tangutp\\Documents\\MobileAutomation\\src\\app-debug.apk"/>
+        <parameter name="URL_" value="http://127.0.0.1:52553/wd/hub"/>
         <!--<parameter name="extentConfigFile" value="C:\\Users\\tangutp\\Documents\\Testing\\Testing\\src\\main\\resources\\extent-config.xml"/>-->
-        <parameter name="extentConfigFile" value="C:\\Users\tangutp\\Documents\\Testing\\Testing\\src\\main\\java\\TestResults\\MyReport.html"/>
-        <parameter name="exportTestSummaryReport" value="C:\\Users\tangutp\\Documents\\Testing\\Testing\\src\\main\\java\\TestResults\\RegressionReport_klov.html"/>
+        <parameter name="extentConfigFile" value="C:\\Users\\tangutp\\Documents\\MobileAutomation\\src\\main\\java\\TestResults\\MyReport.html"/>
+        <parameter name="exportTestSummaryReport" value="C:\\Users\\tangutp\\Documents\\MobileAutomation\\src\\main\\java\\TestResults\\RegressionReport_klov.html"/>
         <parameter name="replaceExistingReport" value="false"/>
         <parameter name="takeScreenShotForFailedTestCase" value="true"/>
         <parameter name="takeScreenShotForPassedTestCase" value="false"/>

@@ -59,8 +59,10 @@
         </dependency>
 
     </dependencies>
-
-    <build>
+    <profiles>
+        <profile>
+            <id>AndroidApp</id>
+      <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -68,12 +70,14 @@
                 <version>2.19.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>C:\Users\tangutp\IdeaProjects\Testing\src\main\java\Configuration\testng.xml</suiteXmlFile>
+                        <suiteXmlFile>C:\Users\tangutp\Documents\MobileAutomation\src\main\java\Configuration\testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+         </profile>
+    </profiles>
 
 
 

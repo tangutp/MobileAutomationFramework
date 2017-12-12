@@ -81,7 +81,7 @@ public class LoginTest_Klov {
         File file = new File(app);
         caps.setCapability(MobileCapabilityType.APP,file.getAbsolutePath());
         if(captureVideo == true){
-            recorder = new ATUTestRecorder("C:\\Users\\tangutp\\Documents\\Testing\\Testing\\ScreenShots\\Videos", "LoginTest_" + dateFormat.format(date), false);
+            recorder = new ATUTestRecorder("C:\\Users\\tangutp\\Documents\\MobileAutomation\\ScreenShots\\Videos", "LoginTest_" + dateFormat.format(date), false);
             recorder.start();
         }
 

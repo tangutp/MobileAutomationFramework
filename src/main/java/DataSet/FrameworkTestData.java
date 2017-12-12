@@ -22,7 +22,7 @@ public class FrameworkTestData {
         @DataProvider(name="LoginTestData")
         public Object[][] getLoginCellData() throws IOException {
 
-            File inputfile = new File("C:\\Users\\tangutp\\Documents\\Testing\\Testing\\src\\main\\java\\Utilities");
+            File inputfile = new File("C:\\Users\\tangutp\\Documents\\MobileAutomation\\src\\main\\java\\Utilities");
             File source = new File(inputfile, "TestData.xlsx");
             FileInputStream fis = new FileInputStream(source.getAbsolutePath());
             workbook = new XSSFWorkbook(fis);
@@ -47,7 +47,7 @@ public class FrameworkTestData {
         @DataProvider(name="ForgotPasswordTestData")
         public Object[][] getFPData() throws IOException {
 
-            File inputfile = new File("C:\\Users\\tangutp\\Documents\\Testing\\Testing\\src\\main\\java\\Utilities");
+            File inputfile = new File("C:\\Users\\tangutp\\Documents\\MobileAutomation\\src\\main\\java\\Utilities");
             File source = new File(inputfile, "TestData.xlsx");
             FileInputStream fis = new FileInputStream(source.getAbsolutePath());
             workbook = new XSSFWorkbook(fis);
